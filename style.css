@@ -1,0 +1,87 @@
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+.aside {
+  background-color: white;
+  padding: 36px 31px;
+  max-width: 306px;
+}
+
+.aside__header-section {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 64px;
+  cursor: pointer;
+}
+
+.aside__header-section__header {
+  font-weight: 600;
+  font-size: 26px;
+  letter-spacing: 0.01em;
+  margin-left: 8px;
+}
+
+.aside__header-section__span {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: -0.01em;
+  color: #838383;
+}
+
+.aside__buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside__buttons__button {
+  max-width: 250px;
+  padding: 11px 11px 11px 8px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color:#9197B3;
+  background-color: transparent;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+  margin-bottom: 10px;
+}
+
+.aside__buttons__button-icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.aside__buttons__button:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.aside__buttons__button:hover {
+  background-color: #5932EA;
+  color: white;
+}
+
+.aside__buttons__button-text {
+  margin-left: 16px;
+}
+
+.aside__buttons__button svg path {
+  transition: 300ms ease-in-out;
+}
+
+.aside__buttons__button:hover svg path.stroke {
+  stroke: white;
+}
+
+.aside__buttons__button:hover svg path.fill {
+  fill: white;
+}
